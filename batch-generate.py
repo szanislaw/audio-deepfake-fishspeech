@@ -1,11 +1,11 @@
 import subprocess
 
 # Paths to reference audio and reference text
-reference_audio = "voice-profiles/gracefu1.wav"
-reference_text = "Miss Lim was suggesting that the government would have raised the GST immediately, if not for the adverse public reaction when it floated the suggestion late last year, and if, it had not been stuck with the previous statement that it had enough money"
+reference_audio = "voices/voice-profiles/lwong1.wav"
+reference_text = "Our aim is to provide support, to help Singaporeans through and help them tackle these cost pressures. We found CDC vouchers to be quite effective, we started this like I said a few years ago. It was well received by families. It helped families get through difficult times."
 
 # Read the corpus
-with open("corpus.txt", "r", encoding="utf-8") as f:
+with open("corpus1.txt", "r", encoding="utf-8") as f:
     lines = [line.strip() for line in f if line.strip()]
 
 # # Limit to 10 lines
